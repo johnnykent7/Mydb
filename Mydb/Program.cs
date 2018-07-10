@@ -12,7 +12,11 @@ namespace Mydb
         {
             var video = new MydbEntities();
             video.AddVideo("First Video", DateTime.Now, "Romance");
-            video.spAddVideo("second video", DateTime.Today, "Romance");
+            video.AddVideo("First Video", DateTime.Now, "Romance");
+            video.AddVideo("First Video", DateTime.Now, "Romance");
+            video.AddVideo("First Video", DateTime.Now, "Romance");
+            video.AddVideo("First Video", DateTime.Now, "Romance");
+            video.AddVideo("First Video", DateTime.Now, "Romance");
 
 
         }
