@@ -15,6 +15,8 @@ namespace Mydb
             video.spAddVideo("second video", DateTime.Today, "Romance");
             video.spAddVideo("second video", DateTime.Today, "Romance");
             video.spAddVideo("second video", DateTime.Today, "Action");
+            video.spAddVideo("second video", DateTime.Today, "Romance");
+            video.spAddVideo("second video", DateTime.Today, "Action");
 
 
         }
